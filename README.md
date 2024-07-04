@@ -3,7 +3,7 @@ This is the official repository for all the code of TheoremLlama for uploading t
  - TheoremLlama model at: https://huggingface.co/RickyDeSkywalker/TheoremLlama
  - *Open Bootstrapped Theorem* (OBT) dataset at: https://huggingface.co/datasets/RickyDeSkywalker/OpenBootstrappedTheorem
 
-[ArXiv](https://arxiv.org/abs/2407.03203)
+[\[ArXiv\]](https://arxiv.org/abs/2407.03203)
 
 Citation:
 ```
