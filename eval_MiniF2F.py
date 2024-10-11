@@ -2,11 +2,10 @@ from Prove_writer import Prove_writer
 import utils
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
-CUDA_DEVICE_ID=0
+CUDA_DEVICE_ID=1
 BATCH_SIZE=4
 PROOF_NUM_PER_THEOREM=32
-# MODEL_ID = "RickyDeSkywalker/TheoremLlama"
-MODEL_ID = "/u/rwang18/nvme/data/models/TheoremLlama"
+MODEL_ID = "RickyDeSkywalker/TheoremLlama"
 CKPT_PATH = "./Generated_proof_ckpts/MiniF2F_Valid/test_output"
 SAVE_PATH = './Generated_proof/MiniF2F_Valid/test_output'
 
