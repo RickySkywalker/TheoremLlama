@@ -11,7 +11,29 @@ This is the official repository for all the code of TheoremLlama for uploading t
 
 
 ## Test on MiniF2F dataset
-To test the `TheoremLlama` on the MiniF2F test or valid dataset, just run `python eval_MiniF2F.py`
+Setup the environment:
+```bash
+pip install -r requirements.txt
+```
+
+Setup the env variable in `eval_MiniF2F.py`. Default settings are:
+```python
+CUDA_DEVICE_ID=1
+BATCH_SIZE=4
+PROOF_NUM_PER_THEOREM=32
+MODEL_ID = "RickyDeSkywalker/TheoremLlama"
+CKPT_PATH = "./Generated_proof_ckpts/MiniF2F_Valid/test_output"
+SAVE_PATH = './Generated_proof/MiniF2F_Valid/test_output'
+dataset_split = "test"
+```
+
+Run the evaluation code:
+```bash
+python eval_MiniF2F.py
+```
+
+You can find the generated proof in `SAVE_PATH` and the ckpts for the proof in `CKPT_PATH`.
+
 
 
 ## Citation:
