@@ -48,3 +48,7 @@ You can find the generated proof in `SAVE_PATH` and the ckpts for the proof in `
       url={https://arxiv.org/abs/2407.03203}, 
 }
 ```
+
+## Acknowledgement
+We gratefully acknowledge the computational resources provided under project codes CIS240529 and CIS240076, which were essential to the completion of this work.
+This project would not have been possible without the support of [DeltaAI](https://delta.ncsa.illinois.edu/delta-delta-ai/) and [Delta](https://delta.ncsa.illinois.edu/).
